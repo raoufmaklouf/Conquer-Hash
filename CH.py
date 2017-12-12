@@ -158,7 +158,7 @@ def __main__2():
         crack.htype=('whirlpool')
     else:
         pass
-        sys.exit()
+        
    
 def __main__3():
 
@@ -185,7 +185,7 @@ if choice=='y':
     crack.self_wordlist_crack()
     __main__2()
     crack.self_wordlist_crack()
-    __main__3    
+    __main__3()    
     crack.self_wordlist_crack()    
 else:
     pass
