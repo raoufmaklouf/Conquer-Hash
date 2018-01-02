@@ -75,6 +75,8 @@ class hash_crack:
     def outocrack(self):
         path=[open('sources/wordlist/actor-givenname','r'),
           open('sources/wordlist/actor-surname','r'),
+          open('sources/wordlist/sqlmap.txt','r'),
+          open('/usr/share/wordlists/rockyou.txt','r'), 
           open('sources/wordlist/AFR_DBF.TXT','r'),
           open('sources/wordlist/alloub.txt','r'),
           open('sources/wordlist/Antworth','r'),
