@@ -22,7 +22,7 @@ class hash_crack:
     
     def random_crack(self):
         char = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890-=\!@#$%^&*()_+|{}"/?>.,<'
-        n=range(6,32)
+        n=range(1,32)
         for t in n:
             try:
                 for s in itertools.product(char, repeat=t):
